@@ -14,10 +14,9 @@ __pycache__/
 !.env.example
 
 # Application-generated files
-uploads/
-snapshots/
-reports/
-
+backend/uploads/
+backend/snapshots/
+backend/reports/
 # Frontend
 node_modules/
 dist/
