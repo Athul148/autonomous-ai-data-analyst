@@ -1,0 +1,43 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Application-generated files
+uploads/
+snapshots/
+reports/
+
+# Frontend
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# Testing
+.coverage
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic generated migrations
+alembic/versions/
+
+# Local datasets
+*.csv
+*.xlsx
+*.xls
