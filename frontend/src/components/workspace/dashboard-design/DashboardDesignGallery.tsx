@@ -14,15 +14,14 @@ import {
 
 import {
   getDashboardDesigns,
-} from "../../api/dashboardDesign.api";
+} from "../../../api/dashboardDesign.api";
 
 import type {
   DashboardDesign,
   DashboardDesignResponse,
-} from "../../types/dashboardDesign";
+} from "../../../types/dashboardDesign";
 
 import DashboardDesignPreview from "./DashboardDesignPreview";
-
 
 interface DashboardDesignGalleryProps {
   datasetId: number;

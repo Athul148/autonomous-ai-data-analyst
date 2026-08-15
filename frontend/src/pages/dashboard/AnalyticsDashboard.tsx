@@ -21,8 +21,8 @@ import type {
   DashboardDesign,
 } from "../../types/dashboardDesign";
 
-import DashboardDesignGallery from "../../components/dashboard-design/DashboardDesignGallery";
-import FullDashboardCanvas from "../../components/dashboard-design/FullDashboardCanvas";
+import DashboardDesignGallery from "../../components/workspace/dashboard-design/DashboardDesignGallery";
+import FullDashboardCanvas from "../../components/workspace/dashboard-design/FullDashboardCanvas";
 
 
 function AnalyticsDashboard() {

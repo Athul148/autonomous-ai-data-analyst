@@ -11,7 +11,7 @@ import {
 import type {
   DashboardDesign,
   DashboardWidget,
-} from "../../types/dashboardDesign";
+} from "../../../types/dashboardDesign";
 
 
 interface DashboardDesignPreviewProps {
@@ -19,7 +19,6 @@ interface DashboardDesignPreviewProps {
   selected?: boolean;
   onSelect?: () => void;
 }
-
 
 function getWidgetStyle(
   widget: DashboardWidget,

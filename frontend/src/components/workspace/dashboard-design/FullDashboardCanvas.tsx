@@ -1,18 +1,12 @@
-import type {
-  CSSProperties,
-} from "react";
-
 import {
   useEffect,
   useRef,
   useState,
 } from "react";
 
-import {
-  toBlob,
-} from "html-to-image";
-
-import jsPDF from "jspdf";
+import type {
+  CSSProperties,
+} from "react";
 
 import Plot from "react-plotly.js";
 
@@ -26,25 +20,32 @@ import {
 } from "lucide-react";
 
 import {
+  toBlob,
+} from "html-to-image";
+
+import {
+  jsPDF,
+} from "jspdf";
+
+import {
   filterDashboard,
-} from "../../api/dashboard.api";
+} from "../../../api/dashboard.api";
 
 import type {
   DashboardFilterItem,
-} from "../../api/dashboard.api";
+} from "../../../api/dashboard.api";
 
 import type {
   DashboardChart,
   DashboardContent,
   DashboardKPI,
-} from "../../types/dashboard";
+} from "../../../types/dashboard";
 
 import type {
   DashboardDesign,
   DashboardSlicer,
   DashboardWidget,
-} from "../../types/dashboardDesign";
-
+} from "../../../types/dashboardDesign";
 
 interface FullDashboardCanvasProps {
   datasetId: number;

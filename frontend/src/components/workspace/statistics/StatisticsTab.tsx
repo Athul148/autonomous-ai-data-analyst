@@ -231,18 +231,15 @@ function StatisticsTab({
       : null;
 
 
-  const summary =
-    useMemo<
-      Record<
-        string,
-        string | number
-      >
-    >(() => {
-      if (
-        !selectedStatistics
-      ) {
-        return {};
-      }
+const summary = useMemo<
+  Record<string, string | number>
+>(() => {
+  if (!selectedStatistics) {
+    return {} as Record<
+      string,
+      string | number
+    >;
+  }
 
       return {
         Count:
